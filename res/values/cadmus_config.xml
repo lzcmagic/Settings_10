@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+For example:
+"linux_app":
+{
+    "name":         "linux_app-v0.0.1-20211101.tar.gz",
+    "md5":          "9697d9ee4b3630409ee071a16b8676c2",
+    "version":      "0.0.1",
+    "git_path":     "http://git.cadmus.com/cadmus/linux_app.git",
+    "git_version":  "057ed306cb4e1dbbb933887b269a7b6c1bfdbeb2"
+}
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- SDD: Modify by stone.shi 20211105 start -->
+    <!-- app_module information -->
+    <string-array name="app_module_version" translatable="false">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <!-- android_module information -->
+    <string-array name="android_module_version" translatable="false">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <!-- ai_module information -->
+    <string-array name="ai_module_version" translatable="false">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <!-- linux_app_module information -->
+    <string-array name="linux_app_module_version" translatable="false">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <!-- linux_module information -->
+    <string-array name="linux_os_module_version" translatable="false">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <!-- mcu_top_module information -->
+    <string-array name="mcu_top_module_version" translatable="false">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <!-- mcu_middle_module information -->
+    <string-array name="mcu_middle_module_version" translatable="false">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+    <!-- mcu_bottom_module information -->
+    <string-array name="mcu_bottom_module_version" translatable="false">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+    <!-- SDD: Modify by stone.shi 20211105 end -->
+</resources>

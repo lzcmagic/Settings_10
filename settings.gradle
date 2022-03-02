@@ -1,0 +1,85 @@
+include ':SettingsLib'
+project(':SettingsLib').projectDir = new File(rootDir, 'SettingsLib')
+
+include ':setupcompat'
+project(':setupcompat').projectDir = new File(rootDir, 'setupcompat')
+
+include ':setupdesign'
+project(':setupdesign').projectDir = new File(rootDir, 'setupdesign')
+
+include ':iconloader'
+project(':iconloader').projectDir = new File(rootDir, 'iconloaderlib')
+
+include ':SettingsLibActionBarShadow'
+project(':SettingsLibActionBarShadow').projectDir = new File(rootDir, 'SettingsLib/ActionBarShadow')
+
+include ':SettingsLibActionButtonsPreference'
+project(':SettingsLibActionButtonsPreference').projectDir = new File(rootDir, 'SettingsLib/ActionButtonsPreference')
+
+include ':SettingsLibAdaptiveIcon'
+project(':SettingsLibAdaptiveIcon').projectDir = new File(rootDir, 'SettingsLib/AdaptiveIcon')
+
+include ':SettingsLibAppPreference'
+project(':SettingsLibAppPreference').projectDir = new File(rootDir, 'SettingsLib/AppPreference')
+
+include ':SettingsLibBarChartPreference'
+project(':SettingsLibBarChartPreference').projectDir = new File(rootDir, 'SettingsLib/BarChartPreference')
+
+include ':SettingsLibDisplayDensityUtils'
+project(':SettingsLibDisplayDensityUtils').projectDir = new File(rootDir, 'SettingsLib/DisplayDensityUtils')
+
+
+include ':SettingsLibEntityHeaderWidgets'
+project(':SettingsLibEntityHeaderWidgets').projectDir = new File(rootDir, 'SettingsLib/EntityHeaderWidgets')
+
+
+include ':SettingsLibHelpUtils'
+project(':SettingsLibHelpUtils').projectDir = new File(rootDir, 'SettingsLib/HelpUtils')
+
+
+include ':SettingsLibLayoutPreference'
+project(':SettingsLibLayoutPreference').projectDir = new File(rootDir, 'SettingsLib/LayoutPreference')
+
+
+include ':SettingsLibProgressBar'
+project(':SettingsLibProgressBar').projectDir = new File(rootDir, 'SettingsLib/ProgressBar')
+
+
+include ':SettingsLibRadioButtonPreference'
+project(':SettingsLibRadioButtonPreference').projectDir = new File(rootDir, 'SettingsLib/RadioButtonPreference')
+
+include ':SettingsLibRestrictedLockUtils'
+project(':SettingsLibRestrictedLockUtils').projectDir = new File(rootDir, 'SettingsLib/RestrictedLockUtils')
+
+
+include ':SettingsLibSchedulesProvider'
+project(':SettingsLibSchedulesProvider').projectDir = new File(rootDir, 'SettingsLib/SchedulesProvider')
+
+//
+include ':SettingsLib-search'
+project(':SettingsLib-search').projectDir = new File(rootDir, 'SettingsLib/search')
+
+
+
+include ':SettingsLibSearchProvider'
+project(':SettingsLibSearchProvider').projectDir = new File(rootDir, 'SettingsLib/SearchProvider')
+
+
+include ':SettingsLibSearchWidget'
+project(':SettingsLibSearchWidget').projectDir = new File(rootDir, 'SettingsLib/SearchWidget')
+
+include ':SettingsLibSettingsSpinner'
+project(':SettingsLibSettingsSpinner').projectDir = new File(rootDir, 'SettingsLib/SettingsSpinner')
+
+include ':SettingsLibSettingsTheme'
+project(':SettingsLibSettingsTheme').projectDir = new File(rootDir, 'SettingsLib/SettingsTheme')
+
+include ':SettingsLibTile'
+project(':SettingsLibTile').projectDir = new File(rootDir, 'SettingsLib/Tile')
+
+include ':SettingsLibUtils'
+project(':SettingsLibUtils').projectDir = new File(rootDir, 'SettingsLib/Utils')
+
+include ':WifiTrackerLib'
+project(':WifiTrackerLib').projectDir = new File(rootDir, 'WifiTrackerLib')
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res-auto"
+                  android:title="@string/cadmus_version">
+
+    <!-- app_module information -->
+    <Preference
+        android:key="app_module"
+        android:title="@string/cadmus_app_module"
+        android:summary="@string/cadmus_version_update"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.cadmus.AppModulePreferenceController" />
+
+    <!-- android_module information -->
+    <Preference
+        android:key="android_module"
+        android:title="@string/cadmus_android_module"
+        android:summary="@string/cadmus_version_update"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.cadmus.AndroidOSModulePreferenceController" />
+
+    <!-- ai_module information -->
+    <Preference
+        android:key="ai_module"
+        android:title="@string/cadmus_ai_module"
+        android:summary="@string/cadmus_version_update"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.cadmus.AiModulePreferenceController" />
+
+    <!-- linux_app_module information -->
+    <Preference
+        android:key="linux_app_module"
+        android:title="@string/cadmus_linux_app_module"
+        android:summary="@string/cadmus_version_update"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.cadmus.LinuxAppModulePreferenceController" />
+
+    <!-- linux_module information -->
+    <Preference
+        android:key="linux_os_module"
+        android:title="@string/cadmus_linux_os_module"
+        android:summary="@string/cadmus_version_update"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.cadmus.LinuxOSModulePreferenceController" />
+
+    <!-- mcu_top_module information -->
+    <Preference
+        android:key="mcu_top_module"
+        android:title="@string/cadmus_mcu_top_module"
+        android:summary="@string/cadmus_version_update"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.cadmus.McuTopModulePreferenceController" />
+
+    <!-- mcu_middle_module information -->
+    <Preference
+        android:key="mcu_middle_module"
+        android:title="@string/cadmus_mcu_middle_module"
+        android:summary="@string/cadmus_version_update"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.cadmus.McuMiddleModulePreferenceController" />
+
+    <!-- mcu_bottom_module information -->
+    <Preference
+        android:key="mcu_bottom_module"
+        android:title="@string/cadmus_mcu_bottom_module"
+        android:summary="@string/cadmus_version_update"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.cadmus.McuBottomModulePreferenceController" />
+</PreferenceScreen>

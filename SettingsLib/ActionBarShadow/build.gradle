@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion COMPILE_SDK
+    buildToolsVersion BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        minSdkVersion 28
+        targetSdkVersion 28
+
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation("androidx.recyclerview:recyclerview:1.2.1")
+    implementation("android.arch.lifecycle:runtime:1.1.1")
+    implementation("androidx.annotation:annotation:1.0.0")
+}
+
+repositories {
+    mavenCentral()
+    google()
+}

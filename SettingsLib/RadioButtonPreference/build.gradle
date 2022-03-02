@@ -1,0 +1,46 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion COMPILE_SDK
+    buildToolsVersion BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        minSdkVersion 25
+        targetSdkVersion 28
+
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+            res.srcDirs=['res']
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation project(":SettingsLibSettingsTheme")
+//    implementation("androidx.annotation:annotation:1.0.0")
+    implementation "androidx.preference:preference:${ANDROID_X_VERSION}"
+
+}
+
+repositories {
+    mavenCentral()
+    google()
+}
